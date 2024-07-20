@@ -40,11 +40,16 @@ export const SectionInfo = () => {
 
                         <div className="flex space-x-4">
                             <div className="flex items-center">
-                                <Button className="text-xl">Contact Me</Button>
-                            </div>
-
-                            <div className="flex items-center">
-                                <Button className="text-xl">Download My Resume</Button>
+                                <Button
+                                    className="text-xl"
+                                    onClick={() => {
+                                        window.open(
+                                            'https://1drv.ms/b/s!AlU6j10taDjBkxPi5TYbGtXKUYPR?e=ANYPJQ',
+                                            '_blank',
+                                        );
+                                    }}>
+                                    Get my resume here
+                                </Button>
                             </div>
                         </div>
                     </div>
