@@ -1,6 +1,6 @@
 export const SectionPortfolio = () => {
     return (
-        <section className="section-portifolio">
+        <section className="section-portfolio">
             <div className="container mx-auto py-16">
                 <div>
                     <div className="text-center space-y-6">
@@ -14,7 +14,99 @@ export const SectionPortfolio = () => {
                     </div>
                 </div>
 
-                <div></div>
+                <div>
+                    <div className="flex gap-4 py-10">
+                        <div className="w-2/4">
+                            <img src="/portfolio/projeto-bw.png" alt="" className="portfolio-item w-4/6 mx-auto" />
+                        </div>
+                        <div className="w-2/4">
+                            <h4 className="text-2xl">Electron.js - Blockchain Wallet</h4>
+                            <p className="text-base font-semibold text-gray-400">
+                                .NET Core, C#, REST API, MSSQL, Electron.js, jQuery, Bootstrap, SignalR, Web3.js,
+                                Ethers.js, SignalR
+                            </p>
+                            <ul className="mt-5">
+                                <li className="text-gray-400 list-disc ml-5">SPA Project</li>
+                                <li className="text-gray-400 list-disc ml-5">Permissions and access area management</li>
+                                <li className="text-gray-400 list-disc ml-5">
+                                    Blockchain NFT, transactions and balances
+                                </li>
+                                <li className="text-gray-400 list-disc ml-5">Wallet creation</li>
+                                <li className="text-gray-400 list-disc ml-5">Realtime Chat</li>
+                                <li className="text-gray-400 list-disc ml-5">Purchase and credit card integrations</li>
+                                <li className="text-gray-400 list-disc ml-5">Notifications and alerts</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="flex gap-4 py-10">
+                        <div className="w-2/4">
+                            <img src="/portfolio/projeto-cg.png" alt="" className="portfolio-item h-96 mx-auto" />
+                        </div>
+                        <div className="w-2/4">
+                            <h4 className="text-2xl">React Native - Poultry Farm Management</h4>
+                            <p className="text-base font-semibold text-gray-400">
+                                React Native, Redux, React Query, Tailwind
+                            </p>
+                            <ul className="mt-5">
+                                <li className="text-gray-400 list-disc ml-5">User Control</li>
+                                <li className="text-gray-400 list-disc ml-5">Dashboard and Charts</li>
+                                <li className="text-gray-400 list-disc ml-5">Offline and Online access</li>
+                                <li className="text-gray-400 list-disc ml-5">Data Import and Export</li>
+                                <li className="text-gray-400 list-disc ml-5">
+                                    Data visualization on website application
+                                </li>
+                                <li className="text-gray-400 list-disc ml-5">Local storage</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="flex gap-4 py-10">
+                        <div className="w-2/4">
+                            <img src="/portfolio/projeto-bp.png" alt="" className="portfolio-item w-4/6 mx-auto" />
+                        </div>
+                        <div className="w-2/4">
+                            <h4 className="text-2xl">ASP.MVC - Parking Management</h4>
+                            <p className="text-base font-semibold text-gray-400">
+                                ASP.NET MVC, C#, MSSQL, jQuery, Bootstrap, SignalR
+                            </p>
+                            <ul className="mt-5">
+                                <li className="text-gray-400 list-disc ml-5">SPA project</li>
+                                <li className="text-gray-400 list-disc ml-5">User Control</li>
+                                <li className="text-gray-400 list-disc ml-5">Permissions and access area management</li>
+                                <li className="text-gray-400 list-disc ml-5">General registrations and settings</li>
+                                <li className="text-gray-400 list-disc ml-5">Dashboard and charts (Highcharts.js)</li>
+                                <li className="text-gray-400 list-disc ml-5">Notifications and email alerts</li>
+                                <li className="text-gray-400 list-disc ml-5">Reservation management</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="flex gap-4 py-10">
+                        <div className="w-2/4">
+                            <img src="/portfolio/projeto-ws.png" alt="" className="portfolio-item h-96 mx-auto" />
+                        </div>
+                        <div className="w-2/4">
+                            <h4 className="text-2xl">ASP.MVC - General Websites & Web Applications</h4>
+                            <p className="text-base font-semibold text-gray-400">
+                                ASP.NET MVC, C#, MSSQL, jQuery, Bootstrap
+                            </p>
+                            <ul className="mt-5">
+                                <li className="text-gray-400 list-disc ml-5">Abrigo Deus Cristo e Caridade</li>
+                                <li className="text-gray-400 list-disc ml-5">
+                                    InnoCheff - Restaurant Orders Management
+                                </li>
+                                <li className="text-gray-400 list-disc ml-5">CityComputer Website & admin panel</li>
+                                <li className="text-gray-400 list-disc ml-5">Inno Website</li>
+                                <li className="text-gray-400 list-disc ml-5">WFR Sistemas Website & admin panel</li>
+                                <li className="text-gray-400 list-disc ml-5">Racco Cosméticos Website & admin panel</li>
+                                <li className="text-gray-400 list-disc ml-5">
+                                    Medlux Website & support tickets management area
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
                 <div className="text-center mt-10">
                     <p className="text-lg text-gray-400">

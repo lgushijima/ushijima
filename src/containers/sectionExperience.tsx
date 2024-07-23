@@ -1,8 +1,4 @@
-import {useEffect} from 'react';
-
 export const SectionExperience = () => {
-    useEffect(() => {}, []);
-
     const experience = [
         {
             id: 0,
@@ -115,7 +111,9 @@ export const SectionExperience = () => {
                     <div className="flex flex-wrap ">
                         {experience.map((item, index) => {
                             return (
-                                <div className={index % 2 === 0 ? 'w-2/4 pb-10 pr-6' : 'w-2/4 pb-10 pl-6'}>
+                                <div
+                                    key={item.id}
+                                    className={index % 2 === 0 ? 'w-2/4 pb-10 pr-6' : 'w-2/4 pb-10 pl-6'}>
                                     <div className="experience-block text-gray-700" key={index}>
                                         <div className="flex justify-between ">
                                             <h3 className="text-xl font-bold">{item.role}</h3>
@@ -128,9 +126,9 @@ export const SectionExperience = () => {
 
                                         <h5 className="text-lg pb-2 ">{item.name}</h5>
                                         <ul>
-                                            {item.desc.map(desc => {
+                                            {item.desc.map((desc, idx) => {
                                                 return (
-                                                    <li className="text-justify text-gray-400 list-disc ml-5">
+                                                    <li key={idx} className="text-justify text-gray-400 list-disc ml-5">
                                                         {desc}
                                                     </li>
                                                 );

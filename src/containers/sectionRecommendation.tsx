@@ -16,18 +16,24 @@ export const SectionRecommendation = () => {
         },
         {
             id: 2,
+            name: 'Zekarias Negash Demma',
+            desc: `Gustavo's technical abilities are matched by his collaborative spirit and problem-solving mindset. He was always willing to share his knowledge and assist team members, making him an outstanding colleague and a true asset to any team. I highly recommend Gustavo for any role that requires a skilled and innovative Full-stack engineer.`,
+            role: 'Senior Software Engineer - Blockcerts',
+        },
+        {
+            id: 3,
             name: 'Willipan Patrick dos Santos',
             desc: 'Gustavo is an excellent professional with great skills in web developer and has very programming logic knowledge. has a great capacity to develop works on team. I consider him an important person in my professional career.',
             role: 'Racco - Project Manager',
         },
         {
-            id: 3,
+            id: 4,
             name: 'Rafael Amarantes',
             desc: 'Professional with excellent technical knowledge, creative and innovative always seeking technological solutions to provide better efficiency agility in the products developed.',
             role: 'Racco - Full-Stack Developer',
         },
         {
-            id: 4,
+            id: 5,
             name: 'Weverton Raimundo',
             desc: 'Excellent professional, very agile and competent. He enjoys learning and strives to master new technologies that emerge. Strongly recommend their work.',
             role: 'WFR Sistemas - Co-Funder/Manager',
@@ -48,7 +54,7 @@ export const SectionRecommendation = () => {
                         <CarouselContent>
                             {recommendation.map((item, index) => {
                                 return (
-                                    <CarouselItem>
+                                    <CarouselItem key={index}>
                                         <div className="w-3/4 mx-auto my-10">
                                             <div
                                                 className="text-lg experience-block text-center leading-relaxed"
