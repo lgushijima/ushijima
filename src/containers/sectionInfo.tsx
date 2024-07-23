@@ -56,7 +56,7 @@ export const SectionInfo = () => {
                     <div className="w-1/12"></div>
                     <div className="w-3/12 self-center">
                         <div className="border-primary p-2 border-8 rounded-sm">
-                            <img src="/images/my-photo.png" alt="" className="w-full rounded-sm" />
+                            <img src="/images/my-photo.jpg" alt="" className="w-full rounded-sm" />
                         </div>
                     </div>
                 </div>
