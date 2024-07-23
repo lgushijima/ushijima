@@ -1,5 +1,4 @@
 import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from '@/components/ui/carousel';
-import Autoplay from 'embla-carousel-autoplay';
 
 import {Quote} from 'lucide-react';
 import {useEffect} from 'react';
