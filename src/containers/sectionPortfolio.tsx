@@ -17,7 +17,11 @@ export const SectionPortfolio = () => {
                 <div>
                     <div className="flex gap-4 py-10">
                         <div className="w-2/4">
-                            <img src="/portfolio/projeto-bw.png" alt="" className="portfolio-item w-4/6 mx-auto" />
+                            <img
+                                src="/portfolio/projeto-bw-thumb.png"
+                                alt=""
+                                className="portfolio-item w-4/6 mx-auto"
+                            />
                         </div>
                         <div className="w-2/4">
                             <h4 className="text-2xl">Electron.js - Blockchain Wallet</h4>
@@ -41,7 +45,7 @@ export const SectionPortfolio = () => {
 
                     <div className="flex gap-4 py-10">
                         <div className="w-2/4">
-                            <img src="/portfolio/projeto-cg.png" alt="" className="portfolio-item h-96 mx-auto" />
+                            <img src="/portfolio/projeto-cg-thumb.png" alt="" className="portfolio-item h-96 mx-auto" />
                         </div>
                         <div className="w-2/4">
                             <h4 className="text-2xl">React Native - Poultry Farm Management</h4>
@@ -63,7 +67,11 @@ export const SectionPortfolio = () => {
 
                     <div className="flex gap-4 py-10">
                         <div className="w-2/4">
-                            <img src="/portfolio/projeto-bp.png" alt="" className="portfolio-item w-4/6 mx-auto" />
+                            <img
+                                src="/portfolio/projeto-bp-thumb.png"
+                                alt=""
+                                className="portfolio-item w-4/6 mx-auto"
+                            />
                         </div>
                         <div className="w-2/4">
                             <h4 className="text-2xl">ASP.MVC - Parking Management</h4>
@@ -84,7 +92,7 @@ export const SectionPortfolio = () => {
 
                     <div className="flex gap-4 py-10">
                         <div className="w-2/4">
-                            <img src="/portfolio/projeto-ws.png" alt="" className="portfolio-item h-96 mx-auto" />
+                            <img src="/portfolio/projeto-ws-thumb.png" alt="" className="portfolio-item h-96 mx-auto" />
                         </div>
                         <div className="w-2/4">
                             <h4 className="text-2xl">ASP.MVC - General Websites & Web Applications</h4>
