@@ -44,7 +44,7 @@ export const SectionInfo = () => {
                                     className="text-xl"
                                     onClick={() => {
                                         window.open(
-                                            'https://1drv.ms/b/s!AlU6j10taDjBkxPi5TYbGtXKUYPR?e=ANYPJQ',
+                                            'https://1drv.ms/b/s!AlU6j10taDjBkynBkdB05iaIW5Kf?e=uLnGgP',
                                             '_blank',
                                         );
                                     }}>
