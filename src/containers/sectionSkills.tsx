@@ -52,17 +52,18 @@ export const SectionSkills = () => {
         {id: 9, side: 'A', name: 'Nethereum', value: 75},
         {id: 10, side: 'A', name: 'Swagger', value: 70},
 
-        {id: 11, side: 'B', name: 'React.js', value: 65},
+        {id: 11, side: 'B', name: 'React.js', value: 75},
         {id: 12, side: 'B', name: 'React Native', value: 70},
-        {id: 13, side: 'B', name: 'jQuery', value: 95},
-        {id: 14, side: 'B', name: 'Javascript', value: 90},
-        {id: 15, side: 'B', name: 'Bootstrap', value: 90},
-        {id: 16, side: 'B', name: 'CSS', value: 95},
-        {id: 17, side: 'B', name: 'HTML', value: 95},
+        {id: 13, side: 'B', name: 'Typescript', value: 80},
+        {id: 14, side: 'B', name: 'jQuery', value: 95},
+        {id: 15, side: 'B', name: 'Javascript', value: 90},
+        {id: 16, side: 'B', name: 'Bootstrap', value: 90},
+        {id: 17, side: 'B', name: 'CSS', value: 95},
+        {id: 18, side: 'B', name: 'HTML', value: 95},
 
-        {id: 18, side: 'B', name: 'Electron.js', value: 75},
-        {id: 19, side: 'B', name: 'Web3', value: 60},
-        {id: 20, side: 'B', name: 'Ethers.js', value: 65},
+        {id: 19, side: 'B', name: 'Electron.js', value: 75},
+        {id: 20, side: 'B', name: 'Web3', value: 60},
+        {id: 21, side: 'B', name: 'Ethers.js', value: 65},
     ];
 
     return (
