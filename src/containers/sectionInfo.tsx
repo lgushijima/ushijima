@@ -43,10 +43,7 @@ export const SectionInfo = () => {
                                 <Button
                                     className="text-xl"
                                     onClick={() => {
-                                        window.open(
-                                            'https://1drv.ms/b/s!AlU6j10taDjBkynBkdB05iaIW5Kf?e=uLnGgP',
-                                            '_blank',
-                                        );
+                                        window.open('/GustavoUshijimaResume.pdf', '_blank');
                                     }}>
                                     Get my resume here
                                 </Button>
